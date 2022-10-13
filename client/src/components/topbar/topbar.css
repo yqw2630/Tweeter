@@ -1,0 +1,112 @@
+.topbarContainer {
+    height: 50px;
+    width: 100%;
+    background: #1877f2;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.topbarLeft {
+    flex: 3;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    -webkit-transition: color .5s;
+    transition: color .5s;
+}
+
+.logo:focus,
+.logo:hover {
+    color: lightgrey;
+}
+
+.topbarCenter {
+    flex: 5;
+}
+
+.searchbar {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon {
+    font-size: 20px !important;
+    margin-left: 5px;
+}
+
+.searchInput {
+    border: none;
+    width: 75%;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.topbarRight {
+    flex: 3.5;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: white;
+}
+
+.topbarLink {
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.topbarIcons {
+    display: flex;
+    margin-right: 15px;
+}
+
+.topbarIconItem {
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.topbarIconBadge {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+    -webkit-transition: filter .5s;
+    transition: filter .5s;
+    margin-right: 15px;
+}
+
+.profileImg:focus,
+.profileImg:hover {
+    filter: brightness(120%);
+}

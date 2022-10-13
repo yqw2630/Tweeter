@@ -1,0 +1,50 @@
+.profileEditPage {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.profileEditRight {
+    flex: 9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profileEditTitle{
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.profileEditForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.profileEditInput {
+    margin-top: 20px;
+    height: 30px;
+}
+
+.profileEditTextInput {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.profileEditButton {
+    margin-top: 20px;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #1877f2;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    transition: filter .5s;
+    font-size: 16px;
+}
